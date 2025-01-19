@@ -1,5 +1,8 @@
 # pokemon_name_translator.py
 from google.cloud import translate
+import os
+#credential_path = "D:\Summer Projects\Translate\social media analysis-2a59d94ba22d.json"
+#os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 class PokemonNameTranslator:
     def __init__(self):
